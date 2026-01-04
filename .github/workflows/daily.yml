@@ -22,8 +22,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "leacarp"
+          git config user.email "leanaguirre2016@gmail.com"
           git add .
           git commit -m "chore: daily auto commit" || echo "No changes"
 
